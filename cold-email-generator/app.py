@@ -4,6 +4,9 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.document_loaders import WebBaseLoader, PyMuPDFLoader
 import streamlit as st
 import tempfile  
+import sys
+print(sys.version)
+
 
 # --- Page Configuration ---
 st.set_page_config(page_title="Cold Email Generator", page_icon="📩")
